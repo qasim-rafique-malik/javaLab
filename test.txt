@@ -1,0 +1,39 @@
+// displaying a box
+        System.out.println("*********");
+        System.out.println("*\t*");
+        System.out.println("*\t*");
+        System.out.println("*\t*");
+        System.out.println("*\t*");
+        System.out.println("*\t*");
+        System.out.println("*********");
+
+        // displaying a oval
+        System.out.println("    ***    ");
+        System.out.println(" *       * ");
+        System.out.println("*         *");
+        System.out.println("*         *");
+        System.out.println("*         *");
+        System.out.println("*         *");
+        System.out.println(" *       * ");
+        System.out.println("    ***    ");
+
+        // displaying a arrow
+        System.out.println("  *  ");
+        System.out.println(" *** ");
+        System.out.println("*****");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+
+        // displaying a diamond
+        System.out.println("    *    ");
+        System.out.println("   * *   ");
+        System.out.println("  *   *  ");
+        System.out.println(" *     * ");
+        System.out.println("*       *");
+        System.out.println(" *     * ");
+        System.out.println("  *   *  ");
+        System.out.println("   * *   ");
+        System.out.println("    *    ");
