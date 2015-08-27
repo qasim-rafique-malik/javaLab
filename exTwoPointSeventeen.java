@@ -3,7 +3,7 @@
     2.17 (Arithmetic, Smallest and Largest) Write an application that inputs three integers from the user
     and displays the sum,average,product,smallest and largest of the numbers.
     Use the techniques shown in Fig. 2.15. [Note: The calculation of the average in this exercise should result in an integer
-    representation of the average. So, if the sum of the values is 7, the average should be 2, not 2.3333….]
+    representation of the average. So, if the sum of the values is 7, the average should be 2, not 2.3333ï¿½.]
 */
 // Library files body start
 import java.util.Scanner;
@@ -49,35 +49,48 @@ public class exTwoPointSeventeen {// class body start
         //Product of all user input
         product         = userIntOne * userIntTwo * userIntThree;
 
-        // largest number logic;
+        System.out.printf("\n");
+
+        // largest number and smallest number logic;
         if(userIntOne > userIntTwo){
             if(userIntOne > userIntThree){
-                System.out.printf("%d is largest", userIntOne)
+                System.out.printf("%d is largest\n", userIntOne);
+
+                if(userIntTwo > userIntThree){
+                    System.out.printf("%d is smallest\n", userIntThree);
+                }
+                else{
+                    System.out.printf("%d is smallest\n", userIntTwo);
+                }
+
             }
             else{
-                System.out.printf("%d is largest", userIntThree);
+                System.out.printf("%d is largest\n", userIntThree);
+
+                System.out.printf("%d is smallest\n", userIntTwo);
             }
         }
         else
         {
             if(userIntTwo > userIntThree){
-                System.out.printf("%d is largest", userIntTwo);
+                System.out.printf("%d is largest\n", userIntTwo);
+
+                if(userIntOne > userIntThree){
+                    System.out.printf("%d is smallest\n", userIntThree);
+                }
+                else{
+                    System.out.printf("%d is smallest\n", userIntOne);
+                }
+
             }
             else{
-            System.out.printf("%d is largest", userIntThree)
+                System.out.printf("%d is largest\n", userIntThree);
+
+                System.out.printf("%d is smallest\n", userIntOne);
             }
         }
 
-
-        //test drive
-        System.out.printf("sum = %d and average = %d and product = %d", sum, average, product);
-
-
-
-
-
-
-
+        System.out.printf("sum = %d\naverage = %d\nproduct = %d\n", sum, average, product);
 
     } //method main body end
 
