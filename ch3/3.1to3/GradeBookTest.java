@@ -6,13 +6,13 @@
 
 public class GradeBookTest {// class body start
 	
-	public static void main() {// main methd body start
+	public static void main(String[] args) {// main methd body start
 		
 		// creating object of GradeBook
 		GradeBook GradeObj = new GradeBook();
 		
 		// calling mathod displymethod from GradeBook
-		GradeObj.displayMassage();
+		GradeObj.displayMessage();
 		
 	}// main method body end
 	
