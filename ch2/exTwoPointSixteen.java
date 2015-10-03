@@ -1,3 +1,4 @@
+package javaLab.ch2;
 // ex 2.16
 /*
     (Comparing Integers) Write an application that asks the user to enter two integers,
@@ -40,7 +41,7 @@ public class exTwoPointSixteen{ // class body start
         if(userIntTwo == userIntOne){
         System.out.printf("These numbers are equal");
         }
-
+        input.close();
     }// main method body end
 
 }//class body end

@@ -1,3 +1,4 @@
+package javaLab.ch2;
 // ex 2.17
 /*
     2.17 (Arithmetic, Smallest and Largest) Write an application that inputs three integers from the user
@@ -22,8 +23,8 @@ public class exTwoPointSeventeen {// class body start
         int sum;
         int average;
         int product;
-        int smallest;
-        int largest;
+        //int smallest;
+        //int largest;
         int userTotalInput  = 3;
         //Initializing variable block end
 
@@ -91,7 +92,7 @@ public class exTwoPointSeventeen {// class body start
         }
 
         System.out.printf("sum = %d\naverage = %d\nproduct = %d\n", sum, average, product);
-
+        input.close();
     } //method main body end
 
 }// class body end

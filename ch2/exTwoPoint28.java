@@ -1,3 +1,4 @@
+package javaLab.ch2;
 // 2.28
 /*
     2.28 (Diameter, Circumference and Area of a Circle) Here’s a peek ahead. In this chapter, you
@@ -38,7 +39,7 @@ public class exTwoPoint28 {// class block start
         System.out.printf("\n diameter = %d\n circumference = %f\n area = %f ", 2*radius, 2.0*Math.PI, Math.PI*(radius*radius));
 
 
-
+        input.close();
 
     } // main method block end
 } // class block end

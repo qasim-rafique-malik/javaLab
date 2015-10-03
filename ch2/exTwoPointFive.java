@@ -1,3 +1,4 @@
+package javaLab.ch2;
 /*  solving exercise 2.5
 */
 // java library importer block start
@@ -45,7 +46,7 @@ public class exTwoPointFive {// class body start
         //part k) Display the message "Product is" followed by the value of the variable result.
         System.out.printf("%s%d","Product is ", result);
 
-
+        input.close();
     }// main function body end
 
 

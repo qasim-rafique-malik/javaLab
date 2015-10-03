@@ -1,3 +1,4 @@
+package javaLab.ch2;
 /* solution of 2.15
     the following code is for simple calculator that will work under two integer
 */
@@ -53,7 +54,7 @@ public class exTwoPointFifteen{//class body start
         // prompting division to user
         System.out.printf("%s%d\n", "division is = ", division);
 
-
+        input.close();
     }// main method body end
 
 }//class body end

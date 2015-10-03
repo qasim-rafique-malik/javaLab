@@ -1,10 +1,11 @@
-// library files block start
-import java.util.Scanner;
-// library files block end
+package javaLab.ch2;
 
-//chapter exercise
-public class ex2{
-    public static void main(String[] arg){
+//library files block start
+import java.util.Scanner;
+//library files block end
+
+public class ex2 {
+	public static void main(String[] arg){
 		//exercise 2.3
 		
 		/*
@@ -60,12 +61,16 @@ public class ex2{
 		//-------------------
 		
 		//g)
+		
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please enter the value:");
 		int number = input.nextInt();
 		if(number != 7){
 			System.out.printf("The variable is not equal to 7");
 		}
+		input.close();
+		System.out.printf("\nnumber is %d", number);
 		
     }
+
 }

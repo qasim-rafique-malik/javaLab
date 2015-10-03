@@ -1,3 +1,4 @@
+package javaLab.ch2;
 // 2.18
 /*
     (Displaying Shapes with Asterisks) Write an application that displays a box, an oval, an arrow

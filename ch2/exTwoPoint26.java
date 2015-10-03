@@ -1,3 +1,4 @@
+package javaLab.ch2;
 // 2.6
 /*
     (Multiples) Write an application that reads two integers, determines whether the first is a
@@ -33,7 +34,7 @@ public class exTwoPoint26 {// class block start
         else{
             System.out.printf("\n%d is not the multiple of %d\n", userIntOne, userIntTwo);
         }
-
+        input.close();
 
     } // main method block end
 } // class block end

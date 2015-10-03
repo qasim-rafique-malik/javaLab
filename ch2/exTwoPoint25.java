@@ -1,3 +1,4 @@
+package javaLab.ch2;
 //2.25
 /*(Odd or Even) Write an application that reads an integer and determines and prints whether
 it’s odd or even. [Hint: Use the remainder operator. An even number is a multiple of 2. Any multiple
@@ -25,7 +26,7 @@ public class exTwoPoint25 {// class body start
             System.out.printf("%d is odd" , userIntVal);
         }
 
-
+        input.close();
 
     }//main method body end
 }// class body end
