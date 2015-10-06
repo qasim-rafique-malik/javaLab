@@ -17,14 +17,16 @@ public class CalWithDialog { // class body start
 		String secondVal;
 		String message;
 		
-		//taking first value in dialogbox
+		//taking first value in dialog box
 		firstVal 					= JOptionPane.showInputDialog("Enter the first number");
 		
 		// converting first string to integer
+		
 		firstValCnvrtToInt 			= Integer.parseInt(firstVal);
 		
-		//taking second value in dialogbox
+		//taking second value in dialog box
 		secondVal 					= JOptionPane.showInputDialog("Enter the second number");
+		
 		//converting second string to integer
 		secondValCnvrtToInt 		= Integer.parseInt(secondVal);
 		
