@@ -1,4 +1,4 @@
-package javaLab.ch10;
+package javaLab.ch10.TenPoint1;
 
 public class PolymorphismTest {
 	
@@ -40,3 +40,4 @@ public class PolymorphismTest {
 	}
 
 }
+

@@ -1,4 +1,4 @@
-package javaLab.ch10;
+package javaLab.ch10.TenPoint1;
 
 public class BasePlusCommissionEmployee extends CommissionEmployee{
 	
@@ -42,6 +42,3 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
 		
 	}
 }
-	
-
-
