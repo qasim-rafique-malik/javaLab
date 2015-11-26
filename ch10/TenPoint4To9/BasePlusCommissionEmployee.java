@@ -11,7 +11,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
 	}
 	
 	public void setBaseSalary(double salary){
-		
+		baseSalary = salary;
 	}
 	
 	public double getBaseSalary(){
@@ -25,7 +25,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
 	
 	@Override
 	public String toString(){
-		return String.format("%s %s : $%.2f",
+		return String.format("%s %s;  %s : $%.2f",
 				"base-salary", super.toString(),
 				"base salary", getBaseSalary());
 	}

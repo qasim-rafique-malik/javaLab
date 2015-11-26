@@ -48,10 +48,17 @@ public class PayrollSystemTest {
 						(BasePlusCommissionEmployee) currentEmployee;
 				employee.setBaseSalary(1.10 * employee.getBaseSalary());
 				
-				System.out.printf("new");
+				System.out.printf("new base salary with 10% increase is: $%.2f\n",
+						employee.getBaseSalary());
 			}
+			System.out.printf("earned $%.2f \n\n", currentEmployee.earnings());
 			
+		}//end for loop
+		
+		for(int j=0; j< employees.length; j++){
+			System.out.printf("Employee %d is a %s\n", j, 
+					employees[j].getClass().getName());
 		}
-	}
+	}//end main
 
 }
