@@ -14,7 +14,7 @@ public class PayrollSystemTest {
 		new CommissionEmployee("EmpThree fName", "EmpThree lName", "CE-EmpThree", 10000, .06);
 		
 		BasePlusCommissionEmployee basePlusCommissionEmployee =
-		new BasePlusCommissionEmployee("EmpFour fName", "EmpFour lName", "BPCE-EmpFour", 5000, .04, 300);		
+		new BasePlusCommissionEmployee("EmpFour fName", "EmpFour lName", "BPCE-EmpFour", 5000, .04, 30.0);		
 	
 		System.out.println("Employee processed individually:\n");
 		
@@ -48,7 +48,7 @@ public class PayrollSystemTest {
 						(BasePlusCommissionEmployee) currentEmployee;
 				employee.setBaseSalary(1.10 * employee.getBaseSalary());
 				
-				System.out.printf("new base salary with 10% increase is: $%.2f\n",
+				System.out.printf("new base salary with 10%% increase is: $ %f \n",
 						employee.getBaseSalary());
 			}
 			System.out.printf("earned $%.2f \n\n", currentEmployee.earnings());
